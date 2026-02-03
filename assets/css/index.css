@@ -361,6 +361,14 @@ section {
   transform: scale(1.1);
 }
 
+/* tela maior que 2560px*/
+/* shadow preta no texto */
+@media (min-width: 2560px) {
+  .hero-title {
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
 /* Responsividade */
 @media (max-width: 992px) {
   .hero-title {
